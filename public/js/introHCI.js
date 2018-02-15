@@ -36,7 +36,7 @@ function callback(result){
 	var projectHtml = 
 	'<img src = "' + result.image + ' " class = "detailsImage">' + 
 	'<p>' + result.title + '</p>' + 
-	'<p><small>' + result.date + '</small></p>' +
+	'<p>' + result.date + '</p>' +
 	'<p>' + result.summary + '</p>'
 	$("#project" + result.id + " .details").html(projectHtml);
 }
